@@ -11,7 +11,7 @@ get '/' do
 end
 
 post '/' do
-	text = "{\"canvas\":{\"content_url\":\"https://8db96ed5.ngrok.io/live_canvas\"}}"
+	text = "{\"canvas\":{\"content_url\":\"https://rocky-beyond-35445.herokuapp.com/live_canvas\"}}"
  	text.to_json
 	text
 end
